@@ -1,0 +1,25 @@
+{
+    "entry": {
+        "app": [
+            "./styles/app.scss"
+        ],
+        "app-mobile": [
+            "./scripts/app-mobile.js"
+        ],
+        "app-desktop": [
+            "./scripts/app-desktop.js"
+        ],
+        "print": [
+            "./styles/print.scss"
+        ]
+    },
+    "publicPath": "/wp-content/themes/sage-theme",
+    "devUrl": "http://sagatheme.vm/home-page/",
+    "proxyUrl": "http://localhost:3000",
+    "cacheBusting": "[name]",
+    "watch": [
+        "app/**/*.php",
+        "config/**/*.php",
+        "resources/views/**/*.php"
+    ]
+}

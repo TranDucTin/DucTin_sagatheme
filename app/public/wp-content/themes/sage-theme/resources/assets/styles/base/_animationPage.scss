@@ -1,0 +1,90 @@
+@screen xl {
+  body:not(.screenshot) {
+    .has-animation {
+      .anima-left,
+      .anima-right,
+      .anima-bottom,
+      .anima-top,
+      .anima-opacity {
+        @apply opacity-0;
+        transition: opacity .6s, transform .6s;
+      }
+     
+      .anima-opacity{
+        transition: opacity 1s, transform .6s;
+      }
+      .anima-left {
+        transform: translate3d(-100px, 0, 0);
+      }
+     
+      .anima-right{
+        transform: translate3d(100px, 0, 0);
+      }
+    
+      .anima-bottom{
+        transform: translate3d(0, 100px, 0);
+      }
+      .anima-top{
+        transform: translate3d(0, -100px, 0);
+      }
+     
+      .anima-bottom-v2 {
+        @apply duration-600 transition-all ease-custom;
+      }
+      .action-animation,
+      .set-animation {
+        &.anima-left,
+        &.anima-right,
+        &.anima-bottom,
+        &.anima-top {
+          transform: none;
+          @apply opacity-100 #{!important};
+        }
+        &.anima-opacity {
+          @apply opacity-100 #{!important};
+        }
+        &.header {
+          transition: opacity .6s, transform .6s, background-color .4s;
+        }
+        .anima-left,
+        .anima-right,
+        .anima-bottom,
+        .anima-top,
+        .anima-opacity {
+          transform: none;
+          @apply opacity-100 #{!important};
+       
+        }
+     
+        .anima-opacity{
+          @apply opacity-100 #{!important};
+          transition: opacity .6s, transform .6s;
+        }
+  
+        @for $i from 1 through 10 {
+          $delay: $i*.1;
+          $delayLine: $i*.3;
+          $delay2: $i*.05 + .3;
+          .delay-#{$i}{
+            transition-delay: $delay+s  !important;
+            &::after {
+              transition-delay: $delayLine+s;
+            }
+          }
+          &.delay-#{$i}{
+            transition-delay: $delay+s;
+          }
+          .anima-top-list >*:nth-child(#{$i}) {
+            transition-delay: $delay2+s;
+          }
+        }
+      }
+      .animation:not(.set-animation) {
+        .anima-bottom-v2 {
+          transform: translate3d(0, 150px, 0) !important;
+          opacity: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,183 @@
+.edit-content-btn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #c2c0c0;
+  border: 1px solid #000;
+  font-weight: 900;
+  bottom: 0;
+  right: 0;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.edit-content-btn.detect-edit {
+  transform: translateX(-100%);
+}
+
+.edit-content-btn.detect-edit2 {
+  transform: translateX(-200%);
+}
+
+.list-edit-focus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid red;
+}
+.list-edit-focus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list-edit-focus li {
+  margin: 5px 10px;
+}
+.list-edit-focus li a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.edit-focus {
+  position: absolute;
+  top: 0;
+  right: 0;
+  pointer-events: all;
+}
+
+.list-edit-focus {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 5px 30px;
+  background: #fff;
+  z-index: 999999;
+}
+
+.edit-container {
+  position: absolute;
+  border: 1px dotted red;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.group-input {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.group-input label {
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.group-input label input {
+  margin-right: 5px;
+}
+
+.group-input .count {
+  appearance: none;
+  width: 50px;
+}
+
+.edit-popup {
+  padding: 20px;
+  background: #fff;
+  position: absolute;
+  z-index: 9999999;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  display: none;
+}
+
+.edit-popup.open-edit {
+  display: block;
+}
+
+.edit-popup button {
+  appearance: none;
+  border-color: #4bc4d3;
+  padding: 10px;
+}
+
+.edit-popup .edit-reset {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.edit-content-table {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.edit-popup-container {
+  overflow-y: auto;
+  max-height: 400px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  min-width: 515px;
+}
+
+.select-size {
+  display: none;
+}
+
+.select-size.choose {
+  display: block !important;
+}
+
+.edit-popup .edit-done {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  float: right;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.edit-popup .edit-done:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.edit-popup .edit-reset {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.edit-popup .edit-reset:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.edit-popup .edit-cancel {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.edit-popup .edit-cancel:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.select-type {
+  margin-right: 10px;
+}

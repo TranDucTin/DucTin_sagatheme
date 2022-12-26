@@ -1,0 +1,41 @@
+html.is-open-menu {
+    @apply overflow-hidden;
+}
+
+.hamburger-menu {
+    &.is-open-menu {
+        @apply pr-5;
+        .icon-bar {
+            &:nth-child(1) {
+                @apply bg-white origin-top-left -top-1 left-1;
+                transform: rotate(45deg);
+            }
+            &:nth-child(2) {
+                @apply opacity-0;
+            }
+            &:nth-child(3) {
+                @apply bg-white origin-top-left top-1;
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}
+
+@screen down_lg {
+    .main-menu {
+        @apply invisible overflow-auto duration-200 w-full max-h-0;
+        // &.is-open-menu {
+        //   @apply visible max-h-initial;
+        // }
+    }
+    .is-open-child {
+        .dropdown-menu {
+            @apply block;
+        }
+    }
+}
+
+.is-open-menu {
+    opacity: 1;
+    top: 0px;
+}

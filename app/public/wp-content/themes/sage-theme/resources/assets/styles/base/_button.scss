@@ -1,0 +1,12 @@
+@layer base {
+  .btn {
+    @apply px-11 font-bold inline-block select-none align-middle transition-all duration-300 ease-in-out rounded-sm uppercase py-7;
+  }
+
+  .btn-outline-brown {
+    @apply text-brown-100 bg-gray-100 border-brown-100 hover:text-brown-200 hover:border-brown-200;
+  }
+  .btn-brown {
+    @apply text-white bg-brown-100 border-brown-100 hover:bg-brown-200 hover:border-brown-200;
+  }
+}

@@ -1,0 +1,143 @@
+{
+    "key": "group_5c923a79e8169",
+    "title": "Modules",
+    "fields": [
+        {
+            "key": "field_5c923a83d29a1",
+            "label": "Modules",
+            "name": "c8_templates",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_61cc0a39fec23": {
+                    "key": "layout_61cc0a39fec23",
+                    "name": "",
+                    "label": "",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a95d6f7dd5f": {
+                    "key": "layout_63a95d6f7dd5f",
+                    "name": "module_1",
+                    "label": "Home Page 1",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a95f6f274ba": {
+                    "key": "layout_63a95f6f274ba",
+                    "name": "module_2",
+                    "label": "Home Page 2",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a96240dad00": {
+                    "key": "layout_63a96240dad00",
+                    "name": "module_3",
+                    "label": "Home Page 3",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a96a7033112": {
+                    "key": "layout_63a96a7033112",
+                    "name": "module_4",
+                    "label": "Home Page 4",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a96a7855764": {
+                    "key": "layout_63a96a7855764",
+                    "name": "module_5",
+                    "label": "Home Page 5",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a96b9d9197a": {
+                    "key": "layout_63a96b9d9197a",
+                    "name": "module_6",
+                    "label": "Home Page 6",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a96ba4d4142": {
+                    "key": "layout_63a96ba4d4142",
+                    "name": "module_7",
+                    "label": "Home Page 7",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a96bab090c4": {
+                    "key": "layout_63a96bab090c4",
+                    "name": "module_8",
+                    "label": "Home Page 8",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a9c6b83b6fb": {
+                    "key": "layout_63a9c6b83b6fb",
+                    "name": "banner_home",
+                    "label": "Home 1",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a9c6f2e0b56": {
+                    "key": "layout_63a9c6f2e0b56",
+                    "name": "content_center",
+                    "label": "Home 2",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Module",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1672070898
+}
