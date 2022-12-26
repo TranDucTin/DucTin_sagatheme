@@ -114,6 +114,15 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_63a9c8bec55bd": {
+                    "key": "layout_63a9c8bec55bd",
+                    "name": "mod_connecting",
+                    "label": "Home 3",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -139,5 +148,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1672070898
+    "modified": 1672071358
 }
