@@ -2,8 +2,7 @@
   <div class="title 2xl:w-2/5 2xl:mr-[90px] xl:w-full lg:w-3/4 lg:mx-[auto] md:w-3/4 md:mx-[auto]">
       <div class="Line-4"></div>
       <h2>
-          <?php echo App::title(); ?>
-
+        The Encompass Platform Seamlessly Connects the Supply Chain, Allowing You to:
       </h2>
   </div>
   <div class="info 2xl:w-3/5 xl:w-full xl:flex lg:flex-none lg:mx-[auto]">
@@ -16,7 +15,6 @@
           three supply chain tiers—empowering you to bring your beverage or
           food business into new levels of profitability.
         </p>
-          
           <div class="xl:w-4/5 ">
               <h3>Improve Operational Efficiencies</h3>
               <p>

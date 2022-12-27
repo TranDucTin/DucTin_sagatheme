@@ -25,7 +25,7 @@
   </div>
   <div class=" flex flex-col w-full ">
       <span>THE LATEST</span>
-      <div class="flex  flex-col  w-full  xl:flex-row">
+      <div class="flex  flex-col w-full  xl:flex-row">
           <div class="shadow-2xl  rounded-b-4xl mb-[30px]xl:row">
               <img class="w-full" src="{!! App::getLogo()['lorem'] !!}" alt="{!! App::getLogo()['alt'] !!}">
               <div class="w-4/5 ml-20">

@@ -1,8 +1,8 @@
 <section class="wrap 2xl:flex xl:w-4/5 xl:flex-none xl:justify-center mx-auto">
   <div class="title 2xl:w-2/5 2xl:mr-[90px] xl:w-full lg:w-3/4 lg:mx-[auto] md:w-3/4 md:mx-[auto]">
-      <div class="Line-4"></div>
+      <div class="Line-4 mb-[9px]"></div>
       <h2>
-          {!! App::title() !!}
+        The Encompass Platform Seamlessly Connects the Supply Chain, Allowing You to:
       </h2>
   </div>
   <div class="info 2xl:w-3/5 xl:w-full xl:flex lg:flex-none lg:mx-[auto]">
@@ -15,14 +15,6 @@
           three supply chain tiers—empowering you to bring your beverage or
           food business into new levels of profitability.
         </p>
-          {{-- @include('partials/custom/content', [
-              'title1' => $data->title1,
-              'sub1' => $data->sub1,
-          ])
-          {{Page::filterContent([
-              'title2' => $data->title2,
-              'sub2' => $data->sub2
-          ])}} --}}
           <div class="xl:w-4/5 ">
               <h3>Improve Operational Efficiencies</h3>
               <p>
