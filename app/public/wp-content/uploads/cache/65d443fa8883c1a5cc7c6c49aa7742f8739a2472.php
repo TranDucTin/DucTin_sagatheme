@@ -12,7 +12,7 @@
           </p>
       </div>
       <div class="xl:flex items-start min-h-[479px]">
-          <div class="info-col self xl: w-2/4 md: w-1/3 text-center flex flex-col items-center xl: mt-15 xl: mb-12 md: mx-auto">
+          <div class="info-col self xl: w-2/4 md: w-1/3 text- center flex flex-col items-center xl: mt-15 xl: mb-12 md: mx-auto">
               <div>
                   <img class="info-icon w-40 h-40 mb-8" src="<?php echo App::getIcon()['icon1']; ?>"
                       alt="<?php echo App::getIcon()['alt']; ?>">
