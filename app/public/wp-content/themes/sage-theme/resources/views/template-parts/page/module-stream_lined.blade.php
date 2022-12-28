@@ -5,7 +5,7 @@
         <span class="text-5xl font-bold text-black-200 leading-normal"> {!! $data->module['content1']!!}</span>
         <span class="text-4xl leading-tight">{!! $data->module['content2'] !!}</span>
     </div>
-    <div class="flex flex-col border-b-4 border-t-4 border-blue-300 mb-[50px]">
+    <div class="flex flex-col border-r-4 border-l-4 border-blue-300 mb-[50px]">
       <div>
         <img class="info-icon w-40 h-40 mb-8" src="{{$data->module['image2']->url}}" alt="{{$data->module['image2']->alt}}">
       </div>

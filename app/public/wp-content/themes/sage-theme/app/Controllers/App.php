@@ -64,11 +64,11 @@ class App extends Controller
         $Business = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img-saga/BusinessImg.png';
         $Hide = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img-saga/bgHide.png';
         $lorem = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img-saga/lorem.jpg';
-        $bgFooter = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img-saga/bgFooter.png';
+        $footer = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/img-saga/footer.png';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
         $alt1 = ($banner && $banner['alt']) ? $banner['alt'] : 'business';
         $href = home_url();
-        return compact('Banner', 'Business', 'Hide', 'lorem', 'bgFooter', 'alt', 'alt1', 'href');
+        return compact('Banner', 'Business', 'Hide', 'lorem', 'footer', 'alt', 'alt1', 'href');
     }
 
     public static function getIcon()

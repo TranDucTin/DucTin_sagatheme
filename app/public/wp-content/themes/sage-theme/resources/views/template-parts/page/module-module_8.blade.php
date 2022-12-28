@@ -1,7 +1,7 @@
 <section class="flex  justify-center w-full ">
   <div class="container w-4/5">
       <div class="flex flex-col  justify-center  text-center  ">
-          <div class="  ">
+          <div class="   ">
               <h2>Trusted By Industry Leaders Across the Supply Chain</h2>
               <p> We are trusted by the world’s leading manufacturers, distributors,
                   and retailers to provide the best of what technology, specifically built for
@@ -66,6 +66,8 @@
                   </div>
               </div>
           </div>
+          <div>
+
       </div>
   </div>
 </section>

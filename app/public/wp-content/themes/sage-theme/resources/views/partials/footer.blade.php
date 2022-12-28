@@ -7,13 +7,16 @@
       <div class="absolute top-[250px] w-full">
           <div class="flex flex-col xl:w-4/5 md:w-full justify-between mx-auto xl:items-start md:items-center">
               <div class=" absolute 2xl:relative xl:absolute  2xl:mb-22">
-                  <img  src="{!! App::getLogo()['logoft'] !!}" alt="{!! App::getLogo()['alt'] !!}" class="w-full">
+                <a id="header-logo" class="navbar-brand header-logo py-5 inline-block align-middle"
+                href="{!! App::getLogo()['href'] !!}">
+                <img src="{!! App::getLogo()['url'] !!}" alt="{!! App::getLogo()['alt'] !!}" class="w-full">
+              </a>
               </div>
               <div class="flex w-full 2xl:items-start xl:items-end md:items-center xl:flex-row md:flex-col">
                   <div class="flex xl:mr-25 justify-between xl:items-end xl:w-1/4 md:w-2/5 2xl:p-0 xl:py-9">
                       <div>
                           <span
-                              class="icomoon icon-youtube text-brown-400 2xl:text-2xl xl:text-base md:text-2xl 2xl:pr-10 xl:pr-5"></span>
+                              class="icomoon icon-youtube text-brown-400 fill: red 2xl:text-2xl xl:text-base md:text-2xl 2xl:pr-10 xl:pr-5"></span>
                       </div>
                       <div>
                           <span
@@ -34,22 +37,22 @@
                   </div>
                   <div class="flex xl:w-[70%] md:w-full justify-between 2xl:items-start xl:items-end md:items-center 2xl:flex-row md:flex-col">
                       <div class="flex w-full xl:justify-between md:justify-around 2xl:mr-25 order">
-                          <div class="py-5 xl:px-0 md:px-6">
+                          <div class="py-5 xl:px-0 md:px-6 text-white">
                               <p>ORCHESTRA SITE</p>
                           </div>
-                          <div class="py-5 xl:px-0 md:px-6">
+                          <div class="py-5 xl:px-0 md:px-6 text-white">
                               <p>ENCOMPASS WEBSITE</p>
                           </div>
-                          <div class="py-5 xl:px-0 md:px-6">
+                          <div class="py-5 xl:px-0 md:px-6 text-white">
                               <p>HANDOFF WEBSITE</p>
                           </div>
                       </div>
-                      <div class="px-10 py-5 border-2 rounded-3xl ">
-                          <a href="" class="text-white font-bold">CONTACT</a>
+                      <div class="px-10 py-5 border-2 rounded-3xl text-white text-decoration: none">
+                          <a href="" class="text-white font-bold text-decoration: none">CONTACT</a>
                       </div>
                   </div>
               </div>
-              <p>© Encompass Technologies 2021</p>
+              <p class="text-slate-400">© Encompass Technologies 2021</p>
           </div>
       </div>
   </div>

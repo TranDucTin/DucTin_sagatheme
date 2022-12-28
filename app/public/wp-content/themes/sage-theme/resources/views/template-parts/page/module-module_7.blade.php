@@ -24,15 +24,15 @@
       </div>
   </div>
   <div class=" flex flex-col w-full ">
-      <span>THE LATEST</span>
+      <span class="font-black">THE LATEST</span>
       <div class="flex  flex-col w-full  xl:flex-row">
           <div class="shadow-2xl  rounded-b-4xl mb-[30px]xl:row">
-              <img class="w-full" src="{!! App::getLogo()['lorem'] !!}" alt="{!! App::getLogo()['alt'] !!}">
+              <img class="w-full" src="{!! App::getBanner()['lorem'] !!}" alt="{!! App::getBanner()['alt'] !!}">
               <div class="w-4/5 ml-20">
                   <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h3>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                   <button>
-                      <span>READ MORE</span>
+                      <span class="">READ MORE</span>
                       <span class="icomoon icon-chevron-right"></span>
                   </button>
               </div>
@@ -57,7 +57,7 @@
           </div>
       </div>
       <div class="absolute ">
-          <img src="{!! App::getLogo()['bgHide'] !!}" alt="{!! App::getLogo()['alt'] !!}">
+          <img src="{!! App::getBanner()['Hide'] !!}" alt="{!! App::getBanner()['alt'] !!}">
       </div>
   </div>
 </section>

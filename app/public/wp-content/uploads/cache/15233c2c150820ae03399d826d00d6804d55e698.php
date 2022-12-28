@@ -24,15 +24,15 @@
       </div>
   </div>
   <div class=" flex flex-col w-full ">
-      <span>THE LATEST</span>
-      <div class="flex  flex-col  w-full  xl:flex-row">
+      <span class="font-black">THE LATEST</span>
+      <div class="flex  flex-col w-full  xl:flex-row">
           <div class="shadow-2xl  rounded-b-4xl mb-[30px]xl:row">
-              <img class="w-full" src="<?php echo App::getLogo()['lorem']; ?>" alt="<?php echo App::getLogo()['alt']; ?>">
+              <img class="w-full" src="<?php echo App::getBanner()['lorem']; ?>" alt="<?php echo App::getBanner()['alt']; ?>">
               <div class="w-4/5 ml-20">
                   <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</h3>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                   <button>
-                      <span>READ MORE</span>
+                      <span class="">READ MORE</span>
                       <span class="icomoon icon-chevron-right"></span>
                   </button>
               </div>
@@ -57,7 +57,7 @@
           </div>
       </div>
       <div class="absolute ">
-          <img src="<?php echo App::getLogo()['bgHide']; ?>" alt="<?php echo App::getLogo()['alt']; ?>">
+          <img src="<?php echo App::getBanner()['Hide']; ?>" alt="<?php echo App::getBanner()['alt']; ?>">
       </div>
   </div>
 </section>

@@ -12,7 +12,7 @@
           </p>
       </div>
       <div class="xl:flex items-start min-h-[479px]">
-          <div class="info-col self xl: w-2/4 md: w-1/3 text-center flex flex-col items-center xl: mt-15 xl: mb-12 md: mx-auto">
+          <div class="info-col self xl: w-2/4 md: w-1/3 text- center flex flex-col items-center xl: mt-15 xl: mb-12 md: mx-auto">
               <div>
                   <img class="info-icon w-40 h-40 mb-8" src="{!! App::getIcon()['icon1'] !!}"
                       alt="{!! App::getIcon()['alt'] !!}">
@@ -48,7 +48,7 @@
               <img class="dot-arrow xl:rotate-0 md:rotate-90 xl:my-25 md:my-83 md:mx-auto" src="{!! App::getIcon()['icon2'] !!}"
                   alt="{!! App::getIcon()['alt'] !!}">
           </div>
-          <div class="info-col self xl: w-2/3 md: w-1/3 text-center flex flex-col items-center xl: mt-15 xl: mb-12 md: mx-auto">
+          <div class="info-col self xl: w-2/4 md: w-1/3 text-center flex flex-col items-center xl: mt-15 xl: mb-12 md: mx-auto">
               <div>
                   <img class="info-icon w-40 h-40" src="{!! App::getIcon()['icon4'] !!}"
                       alt="{!! App::getIcon()['alt'] !!}">

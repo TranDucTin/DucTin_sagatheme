@@ -48,7 +48,7 @@
               <img class="dot-arrow xl:rotate-0 md:rotate-90 xl:my-25 md:my-83 md:mx-auto" src="<?php echo App::getIcon()['icon2']; ?>"
                   alt="<?php echo App::getIcon()['alt']; ?>">
           </div>
-          <div class="info-col self xl: w-2/3 md: w-1/3 text-center flex flex-col items-center xl: mt-15 xl: mb-12 md: mx-auto">
+          <div class="info-col self xl: w-2/4 md: w-1/3 text-center flex flex-col items-center xl: mt-15 xl: mb-12 md: mx-auto">
               <div>
                   <img class="info-icon w-40 h-40" src="<?php echo App::getIcon()['icon4']; ?>"
                       alt="<?php echo App::getIcon()['alt']; ?>">
